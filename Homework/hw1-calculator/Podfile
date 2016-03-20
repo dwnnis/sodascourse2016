@@ -1,0 +1,3 @@
+pod 'CalculatorCore', :git => 'https://github.com/sodascourse/calculator.git', :branch => 'master'
+
+use_frameworks!
