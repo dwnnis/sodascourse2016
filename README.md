@@ -5,3 +5,6 @@
 
 - **Homework**
   - 1. Calculator
+
+- **Reading Resources**
+  - [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/)
