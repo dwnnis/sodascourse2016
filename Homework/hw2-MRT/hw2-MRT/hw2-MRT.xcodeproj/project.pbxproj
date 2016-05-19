@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58122F1C53B399FDD04A799F /* Pods_hw2_MRT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FCB39661B0E6396E2F3248 /* Pods_hw2_MRT.framework */; };
+		DD100F1B1CEDB26A00B738E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD100F1A1CEDB26A00B738E3 /* AppDelegate.swift */; };
+		DD100F201CEDB26A00B738E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD100F1E1CEDB26A00B738E3 /* Main.storyboard */; };
+		DD100F221CEDB26A00B738E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD100F211CEDB26A00B738E3 /* Assets.xcassets */; };
+		DD100F251CEDB26A00B738E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD100F231CEDB26A00B738E3 /* LaunchScreen.storyboard */; };
+		DD100F2D1CEDBE1600B738E3 /* MRT.json in Resources */ = {isa = PBXBuildFile; fileRef = DD100F2C1CEDBE1600B738E3 /* MRT.json */; };
+		DD100F2F1CEDBEBB00B738E3 /* StationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD100F2E1CEDBEBB00B738E3 /* StationListViewController.swift */; };
+		DD100F311CEDC0DC00B738E3 /* StationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD100F301CEDC0DC00B738E3 /* StationData.swift */; };
+		DD100F331CEDC1F900B738E3 /* StationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD100F321CEDC1F900B738E3 /* StationDetailViewController.swift */; };
+		DD100F351CEDD12400B738E3 /* MRTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD100F341CEDD12400B738E3 /* MRTTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C986F3AB420E376EA27A212 /* Pods-hw2-MRT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw2-MRT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hw2-MRT/Pods-hw2-MRT.debug.xcconfig"; sourceTree = "<group>"; };
+		879C227EEB89F1AE9779D0D8 /* Pods-hw2-MRT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw2-MRT.release.xcconfig"; path = "Pods/Target Support Files/Pods-hw2-MRT/Pods-hw2-MRT.release.xcconfig"; sourceTree = "<group>"; };
+		D7FCB39661B0E6396E2F3248 /* Pods_hw2_MRT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hw2_MRT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD100F171CEDB26A00B738E3 /* hw2-MRT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw2-MRT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD100F1A1CEDB26A00B738E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD100F1F1CEDB26A00B738E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD100F211CEDB26A00B738E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD100F241CEDB26A00B738E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD100F261CEDB26A00B738E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD100F2C1CEDBE1600B738E3 /* MRT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MRT.json; sourceTree = "<group>"; };
+		DD100F2E1CEDBEBB00B738E3 /* StationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationListViewController.swift; sourceTree = "<group>"; };
+		DD100F301CEDC0DC00B738E3 /* StationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationData.swift; sourceTree = "<group>"; };
+		DD100F321CEDC1F900B738E3 /* StationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDetailViewController.swift; sourceTree = "<group>"; };
+		DD100F341CEDD12400B738E3 /* MRTTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD100F141CEDB26A00B738E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58122F1C53B399FDD04A799F /* Pods_hw2_MRT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E04C4BE64EB40C47D79DA26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C986F3AB420E376EA27A212 /* Pods-hw2-MRT.debug.xcconfig */,
+				879C227EEB89F1AE9779D0D8 /* Pods-hw2-MRT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD100F0E1CEDB26A00B738E3 = {
+			isa = PBXGroup;
+			children = (
+				DD100F191CEDB26A00B738E3 /* hw2-MRT */,
+				DD100F181CEDB26A00B738E3 /* Products */,
+				9E04C4BE64EB40C47D79DA26 /* Pods */,
+				FD7FEA27FB9F2EEB90F2359B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD100F181CEDB26A00B738E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD100F171CEDB26A00B738E3 /* hw2-MRT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD100F191CEDB26A00B738E3 /* hw2-MRT */ = {
+			isa = PBXGroup;
+			children = (
+				DD100F2C1CEDBE1600B738E3 /* MRT.json */,
+				DD100F1A1CEDB26A00B738E3 /* AppDelegate.swift */,
+				DD100F1E1CEDB26A00B738E3 /* Main.storyboard */,
+				DD100F2E1CEDBEBB00B738E3 /* StationListViewController.swift */,
+				DD100F341CEDD12400B738E3 /* MRTTableViewCell.swift */,
+				DD100F301CEDC0DC00B738E3 /* StationData.swift */,
+				DD100F321CEDC1F900B738E3 /* StationDetailViewController.swift */,
+				DD100F211CEDB26A00B738E3 /* Assets.xcassets */,
+				DD100F231CEDB26A00B738E3 /* LaunchScreen.storyboard */,
+				DD100F261CEDB26A00B738E3 /* Info.plist */,
+			);
+			path = "hw2-MRT";
+			sourceTree = "<group>";
+		};
+		FD7FEA27FB9F2EEB90F2359B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7FCB39661B0E6396E2F3248 /* Pods_hw2_MRT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD100F161CEDB26A00B738E3 /* hw2-MRT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD100F291CEDB26A00B738E3 /* Build configuration list for PBXNativeTarget "hw2-MRT" */;
+			buildPhases = (
+				5D62BC02EE6AFAAA1E4FF007 /* 📦 Check Pods Manifest.lock */,
+				DD100F131CEDB26A00B738E3 /* Sources */,
+				DD100F141CEDB26A00B738E3 /* Frameworks */,
+				DD100F151CEDB26A00B738E3 /* Resources */,
+				F925990913F49CB6809DAD57 /* 📦 Embed Pods Frameworks */,
+				E1F24AFD215AF8812AC7DE44 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw2-MRT";
+			productName = "hw2-MRT";
+			productReference = DD100F171CEDB26A00B738E3 /* hw2-MRT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD100F0F1CEDB26A00B738E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dwnnis;
+				TargetAttributes = {
+					DD100F161CEDB26A00B738E3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RFCBWA848L;
+					};
+				};
+			};
+			buildConfigurationList = DD100F121CEDB26A00B738E3 /* Build configuration list for PBXProject "hw2-MRT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD100F0E1CEDB26A00B738E3;
+			productRefGroup = DD100F181CEDB26A00B738E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD100F161CEDB26A00B738E3 /* hw2-MRT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD100F151CEDB26A00B738E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD100F251CEDB26A00B738E3 /* LaunchScreen.storyboard in Resources */,
+				DD100F221CEDB26A00B738E3 /* Assets.xcassets in Resources */,
+				DD100F201CEDB26A00B738E3 /* Main.storyboard in Resources */,
+				DD100F2D1CEDBE1600B738E3 /* MRT.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D62BC02EE6AFAAA1E4FF007 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F24AFD215AF8812AC7DE44 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw2-MRT/Pods-hw2-MRT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F925990913F49CB6809DAD57 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hw2-MRT/Pods-hw2-MRT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD100F131CEDB26A00B738E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD100F311CEDC0DC00B738E3 /* StationData.swift in Sources */,
+				DD100F351CEDD12400B738E3 /* MRTTableViewCell.swift in Sources */,
+				DD100F1B1CEDB26A00B738E3 /* AppDelegate.swift in Sources */,
+				DD100F2F1CEDBEBB00B738E3 /* StationListViewController.swift in Sources */,
+				DD100F331CEDC1F900B738E3 /* StationDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD100F1E1CEDB26A00B738E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD100F1F1CEDB26A00B738E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD100F231CEDB26A00B738E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD100F241CEDB26A00B738E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD100F271CEDB26A00B738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD100F281CEDB26A00B738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD100F2A1CEDB26A00B738E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C986F3AB420E376EA27A212 /* Pods-hw2-MRT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-MRT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.dwnnis.hw2-MRT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD100F2B1CEDB26A00B738E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879C227EEB89F1AE9779D0D8 /* Pods-hw2-MRT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hw2-MRT/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tw.dwnnis.hw2-MRT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD100F121CEDB26A00B738E3 /* Build configuration list for PBXProject "hw2-MRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD100F271CEDB26A00B738E3 /* Debug */,
+				DD100F281CEDB26A00B738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD100F291CEDB26A00B738E3 /* Build configuration list for PBXNativeTarget "hw2-MRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD100F2A1CEDB26A00B738E3 /* Debug */,
+				DD100F2B1CEDB26A00B738E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD100F0F1CEDB26A00B738E3 /* Project object */;
+}

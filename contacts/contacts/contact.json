@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Peter",
+    "phone": "0932123123",
+    "gender": "male"
+  },
+  {
+    "name": "Mary",
+    "phone": "0912334534",
+    "gender": "female"
+  }
+]
